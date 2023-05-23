@@ -14,12 +14,15 @@ import {MatMenuModule} from '@angular/material/menu';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
+import { FormsModule } from '@angular/forms';
+import { RedditCardComponent } from './reddit-card/reddit-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    
+    RedditCardComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -32,11 +35,8 @@ import {MatCardModule} from '@angular/material/card';
     MatButtonModule,
     MatMenuModule,
     MatSelectModule,
-    MatCardModule
-
-
-
-
+    MatCardModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
