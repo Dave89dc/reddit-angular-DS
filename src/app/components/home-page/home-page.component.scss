@@ -2,11 +2,10 @@
   flex: 1 1 auto;
 }
 
-.example-card {
-  max-width: 200px;
-}
-
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
+.post-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  margin: 4px;
+  border: 1px solid red;
 }
