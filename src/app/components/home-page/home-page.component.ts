@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { RedditService } from 'src/app/services/reddit-service/reddit.service';
 import { Post } from 'src/app/models/base-model';
-import { Observable } from 'rxjs';
+//import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-home-page',
